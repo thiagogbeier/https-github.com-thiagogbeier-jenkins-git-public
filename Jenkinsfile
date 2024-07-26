@@ -1,5 +1,5 @@
 pipeline {
-  agent any
+  agent node2-adds1
   stages {
     stage('hello') {
       steps {
